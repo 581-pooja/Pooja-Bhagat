@@ -41,7 +41,7 @@ function topFunction() {
 // For Downloading Resume
 function downloadResume() {
     var link = document.createElement('a');
-    link.href = '/Pooja_Bhagat_Resume.pdf';  // Replace with the actual path to your resume file
+    link.href = 'Pooja_Bhagat_Resume.pdf';  // Replace with the actual path to your resume file
     link.download = 'Pooja_Bhagat_Resume.pdf';  // Replace with the desired name of the downloaded file
     link.click();
 }
