@@ -38,6 +38,14 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+// For Downloading Resume
+function downloadResume() {
+    var link = document.createElement('a');
+    link.href = '/Pooja_Bhagat_Resume.pdf';  // Replace with the actual path to your resume file
+    link.download = 'Pooja_Bhagat_Resume.pdf';  // Replace with the desired name of the downloaded file
+    link.click();
+}
+
 
 //  For Email sending 
 function sendEmail(){
@@ -45,26 +53,13 @@ function sendEmail(){
   let email = document.getElementById('email').value
   let message = document.getElementById('message').value
 
-  let Body = `Name: ${name} <br> Email: ${email} <br> Message: ${message}`
+  var body = "Name: " + name + "\n";
+  body += "Email: " + email + "\n\n";
+  body += "Message:\n" + message;
 
-  Email.send({
-      Host : "smtp.gmail.com",
-      Username : "poojabhagat7021594137@gmail.com",
-      Password : "tepovkorcoyqhetg",
-      To : 'poojabhagat7021594137@gmail.com',
-      From : `${email}`,
-      Subject : `${email}`,
-      Body :  `${Body}`
+  window.location.href = "mailto:poojabhagat5801@gmail.com?subject=New Message from Portfolio&body=" + encodeURIComponent(body);
 
-  }).then(
-    message => {
-      if(message == 'OK'){
-          alert("message sended sucessfully");
-      }
-      else{
-          alert("There is error at sending message.");
-      }
-    }
-    
-  );
+  document.getElementById("contactForm").reset();
+
+  // console.log(body)
 }
