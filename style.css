@@ -737,6 +737,10 @@ footer li :hover{
         font-size: 55%;
     }
 
+    .home {
+        font-size: 50%;
+    }
+
     .home h3{
         margin-top: 2rem;
     }
@@ -760,6 +764,10 @@ footer li :hover{
     
     html{
         font-size: 55%;
+    }
+
+    .home {
+        font-size: 50%;
     }
 
     .home h3{
@@ -799,6 +807,10 @@ footer li :hover{
 
     .home h3{
         margin-top: 2rem;
+    }
+
+    .home {
+        font-size: 50%;
     }
 
     
