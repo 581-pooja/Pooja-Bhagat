@@ -497,8 +497,7 @@ section{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 2rem 5rem;
-    margin: 2rem;
+    padding: 2rem 4rem;
 }
 
 .achCer li{
@@ -735,7 +734,7 @@ footer li :hover{
 
 @media (max-width: 768px){
     html{
-        font-size: 60%;
+        font-size: 55%;
     }
 
     .skills td {
@@ -756,7 +755,7 @@ footer li :hover{
     }
     
     html{
-        font-size: 60%;
+        font-size: 55%;
     }
 
     .about .row .counter .box{
