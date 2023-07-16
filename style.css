@@ -737,6 +737,10 @@ footer li :hover{
         font-size: 55%;
     }
 
+    .home h3{
+        margin-top: 2rem;
+    }
+
     .skills td {
         color: var(--white);
         font-size: 2rem;
@@ -756,6 +760,10 @@ footer li :hover{
     
     html{
         font-size: 55%;
+    }
+
+    .home h3{
+        margin-top: 2rem;
     }
 
     .about .row .counter .box{
@@ -788,6 +796,10 @@ footer li :hover{
 }
 
 @media (max-height: 600px){
+
+    .home h3{
+        margin-top: 2rem;
+    }
 
     
     header{
