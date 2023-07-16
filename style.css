@@ -468,7 +468,7 @@ section{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding:  0 2rem;
+    padding:  0 1rem;
     background-color: #565342;
   }
 
@@ -488,7 +488,7 @@ section{
 
 .projects  .box-container .card .projectDesc p{
     color: var(--white);
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     align-items: center;
 }
 
@@ -497,7 +497,8 @@ section{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 2rem 4rem;
+    padding: 2rem 5rem;
+    margin: 2rem;
 }
 
 .achCer li{
@@ -734,7 +735,7 @@ footer li :hover{
 
 @media (max-width: 768px){
     html{
-        font-size: 50%;
+        font-size: 60%;
     }
 
     .skills td {
@@ -755,7 +756,7 @@ footer li :hover{
     }
     
     html{
-        font-size: 45%;
+        font-size: 60%;
     }
 
     .about .row .counter .box{
